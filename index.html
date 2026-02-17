@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo"><b><i>Shawaiz Ali</i></b></div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm <b><i>Software Engineer</i></b></h1>
+            <p>Professional [Web Developer/Designer] with expertise in [Game Development]</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="d:\Pictures\IMG-20241211-WA0023.jpg" alt="Your Name">
+                </div>
+                <div class="about-text">
+                    <p> Enthusiastic Software Engineering student with 2 years of academic background and growing experience in <b><i>C, C++, SQL, and Assembly.</i></b> </p>
+                    <p>Passionate about learning software development in a real-world environment. Familiar with problem-solving, low-level programming, and basic UI design using tools like Canva and PowerPoint. Actively seeking an internship to gain practical experience and contribute to collaborative projects</p>
+                    <p>When I'm not working, you can find me Graphic Design. I'm always eager to take on new challenges and collaborate with like-minded professionals.</p>
+                    <a href="#contact" class="cta-button">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="d:\Saved Pictures\pubg-lite-pubg-mobile-gambling-8k-gaming-pubg-hd-wallpaper-preview.jpg" alt="Project 1">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Project Game Development</h3>
+                        <p>Game development is the multidisciplinary process of creating video games, encompassing planning, design, programming, art, audio, testing, and deployment. It involves collaborative efforts across various roles—programmers, artists, designers, sound engineers, writers, and project managers—to transform a concept into a playable game.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="d:\Saved Pictures\844141.jpg" alt="Project 2">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Project Cartoon Animated</h3>
+                        <p>A cartoon animation project involves creating animated content, typically for entertainment, education, or marketing, using 2D or 3D animation techniques. It combines storytelling, character design, visual artistry, sound design, and technical expertise to produce engaging animated videos, such as a short film, TV episode, or promotional clip.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="d:\Saved Pictures\web_development_is_important_176fa0618e-1.jpg" alt="Project 3">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Project Web Development</h3>
+                        <p>A web development project involves designing, building, and deploying a website or web application to meet specific goals, such as e-commerce, informational content, or user interaction.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-item">
+                    <div class="service-icon">📱</div>
+                    <h3>Website Design & Development</h3>
+                    <p>Modern, responsive, and SEO-friendly websites tailored to your brand and goals.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-item">
+                    <div class="service-icon">💻</div>
+                    <h3> Frontend Development</h3>
+                    <p>Clean and optimized code using HTML, CSS, JavaScript, and frameworks like React.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-item">
+                    <div class="service-icon">🎨</div>
+                    <h3>Logo & Branding Design</h3>
+                    <p>Creative and memorable logos that reflect your brand identity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p>alishawaiz025@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Phone</h3>
+                        <p>03357400857</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Location</h3>
+                        <p>Murala, Pakistan</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Follow Me</h3>
+                        <div class="social-icons">
+                            <a href="#">LinkedIn</a>
+                            <a href="#">Twitter</a>
+                            <a href="#">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3><b><u><i>Shawaiz Ali</i></u></b></h3>
+                    <p>Professional Frontend Developer specializing in creating user-friendly and responsive web interfaces.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Website Design & Development</a></li>
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">Logo & Branding Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <b><i>Shawaiz Ali</i></b>. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
